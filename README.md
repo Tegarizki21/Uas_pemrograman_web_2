@@ -28,6 +28,7 @@ Struktur File
 Instruksi Pengaturan
 1. Pengaturan Database:
 - Buat database dan tabel dengan menggunakan perintah SQL berikut:
+
 CREATE DATABASE uastegar;
 USE uastegar;
 
@@ -39,6 +40,7 @@ CREATE TABLE todo_list (
 
 2. Konfigurasi Koneksi Database:
 - Edit file db.php dan perbarui kredensial database:
+
 $host = 'localhost';
 $db = 'uastegar';
 $user = 'root';
